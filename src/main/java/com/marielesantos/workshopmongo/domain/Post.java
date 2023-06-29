@@ -1,5 +1,6 @@
 package com.marielesantos.workshopmongo.domain;
 
+import com.marielesantos.workshopmongo.dto.AuthorDTO;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -24,6 +25,6 @@ public class Post implements Serializable {
     private Date date;
     private String title;
     private String body;
-    private User author;
+    private AuthorDTO author;
 
 }
